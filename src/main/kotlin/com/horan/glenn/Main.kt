@@ -22,7 +22,6 @@ import org.http4k.server.asServer
         val shuffledDeck = shuffle(deck)
         for (d in shuffledDeck) print("$d\n")
 
-
         //        routes(
 //            "/hello-world" bind Method.GET to { request: Request -> helloWorld(request)},
 //            "/get-poker-hand" bind Method.GET to { request: Request -> getPokerHand()},
